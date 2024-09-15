@@ -39,6 +39,8 @@
 
   <project path="development" name="crdroidx/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="crdroid" />
 
+  <project path="device/lineage/sepolicy" name="crdroidx/android_device_crdroid_sepolicy" remote="crdroid" />
+
   <project path="external/avb" name="crdroidx/android_external_avb" groups="pdk" remote="crdroid" />
   <project path="external/cronet" name="crdroidx/android_external_cronet" groups="pdk" remote="crdroid" />
   <project path="external/dtc" name="crdroidx/android_external_dtc" groups="pdk" remote="crdroid" />
@@ -49,19 +51,38 @@
   <project path="external/tinycompress" name="crdroidx/android_external_tinycompress" groups="pdk" remote="crdroid" />
   <project path="external/zstd" name="crdroidx/android_external_zstd" remote="crdroid" />
 
+  <project path="frameworks/av" name="crdroidx/android_frameworks_av" groups="pdk" remote="crdroid" />
+  <project path="frameworks/base" name="crdroidx/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="frameworks/libs/systemui" name="crdroidx/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="frameworks/native" name="crdroidx/android_frameworks_native" groups="pdk" remote="crdroid" />
+  <project path="frameworks/opt/colorpicker" name="crdroidx/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidx/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
+  <project path="frameworks/opt/timezonepicker" name="crdroidx/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidx/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
+  <project path="hardware/libhardware" name="crdroidx/android_hardware_libhardware" groups="pdk" remote="crdroid" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="crdroidx/android_hardware_qcom_audio" groups="qcom,msmnile" revision="15.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/wlan" name="crdroidx/android_hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="15.0-caf" />
 
   <project path="kernel/configs" name="crdroidx/android_kernel_configs" groups="vts,pdk" remote="crdroid" />
 
+  <project path="lineage-sdk" name="crdroidx/android_lineage-sdk" remote="crdroid" />
+
   <project path="packages/apps/Contacts" name="crdroidx/android_packages_apps_Contacts" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidx/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/Etar" name="crdroidx/android_packages_apps_Etar" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidx/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/apps/EmergencyInfo" name="crdroidx/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/Gallery2" name="crdroidx/android_packages_apps_Gallery2" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/Launcher3" name="crdroidx/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
+  <project path="packages/apps/LineageParts" name="crdroidx/android_packages_apps_LineageParts" remote="crdroid" />
+  <project path="packages/apps/Matlog" name="crdroidx/android_packages_apps_Matlog" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crdroidx/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/Settings" name="crdroidx/android_packages_apps_Settings" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/SettingsIntelligence" name="crdroidx/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/SetupWizard" name="crdroidx/android_packages_apps_SetupWizard" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidx/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="packages/apps/Updater" name="crdroidx/android_packages_apps_Updater" remote="crdroid" />
   <project path="packages/apps/WallpaperPicker2" name="crdroidx/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidx/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
   <project path="packages/modules/adb" name="crdroidx/android_packages_modules_adb" groups="pdk" remote="crdroid" />
@@ -76,6 +97,9 @@
   <project path="packages/providers/TelephonyProvider" name="crdroidx/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidx/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidx/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+
+  <!-- Clang 19.0.1 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225" remote="crdroid-gitlab" />
 
   <project path="system/bpf" name="crdroidx/android_system_bpf" groups="pdk" remote="crdroid" />
   <project path="system/core" name="crdroidx/android_system_core" groups="pdk" remote="crdroid" />
@@ -92,6 +116,8 @@
   <project path="system/update_engine" name="crdroidx/android_system_update_engine" groups="pdk" remote="crdroid" />
   <project path="system/vold" name="crdroidx/android_system_vold" groups="pdk" remote="crdroid" />
 
+  <project path="vendor/addons" name="crdroidx/android_vendor_addons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidx/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="crdroidx/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="15.0-legacy-um" />
 
 </manifest>

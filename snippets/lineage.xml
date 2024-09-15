@@ -5,7 +5,7 @@
   <!--<project path="android" name="LineageOS/android" />-->
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" revision="lineage-21.0" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" revision="lineage-21.0" />
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" revision="lineage-21.0" />
+  <!--<project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" revision="lineage-21.0" />-->
   <project path="external/bash" name="LineageOS/android_external_bash" revision="lineage-21.0" />
   <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
@@ -28,29 +28,29 @@
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" revision="lineage-21.0" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-21.0" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" revision="lineage-21.0" />
-  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" revision="lineage-21.0" />
+  <!--<project path="lineage-sdk" name="LineageOS/android_lineage-sdk" revision="lineage-21.0" />-->
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="lineage-21.0" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" revision="lineage-21.0" />
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" revision="lineage-21.0" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" revision="lineage-21.0" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="lineage-21.0" />
-  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" revision="lineage-21.0" />
+  <!--<project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" revision="lineage-21.0" />-->
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" revision="lineage-21.0" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" revision="lineage-21.0" />
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" revision="lineage-21.0" />
-  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" revision="lineage-21.0" />
+  <!--<project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" revision="lineage-21.0" />-->
   <project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" revision="lineage-21.0" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" revision="lineage-21.0" />
   <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" revision="lineage-21.0" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" revision="lineage-21.0" />
+  <!--<project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" revision="lineage-21.0" />-->
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" revision="lineage-21.0" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" revision="lineage-21.0" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" revision="lineage-21.0" />
-  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" revision="lineage-21.0" />
+  <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" revision="lineage-21.0" />-->
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" revision="lineage-21.0" />
   <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" revision="lineage-21.0" />
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" revision="lineage-21.0" />
-  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" revision="lineage-21.0" />
+  <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" revision="lineage-21.0" />-->
+  <!--<project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" revision="lineage-21.0" />-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-21.0" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" revision="lineage-21.0" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" revision="lineage-21.0" />
@@ -134,7 +134,7 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-21.0-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-21.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-21.0-caf-sm8150" />
+  <!--<project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-21.0-caf-sm8150" />-->
   <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-21.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-21.0-caf-sm8250" />
@@ -158,7 +158,7 @@
   <project path="hardware/qcom-caf/sm8550/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,kailua-vendor" revision="lineage-21.0" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,legacy-qcom" revision="lineage-21.0" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" />
+  <!--<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" />-->
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" revision="lineage-21.0" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="lineage-21.0" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" revision="lineage-21.0" />
@@ -168,7 +168,7 @@
   <project path="vendor/qcom/opensource/commonsys/wfd" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,kailua-video" revision="lineage-21.0" />
   <project path="vendor/qcom/opensource/core-utils-sys" name="LineageOS/android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" revision="lineage-21.0" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="LineageOS/android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,kailua-vendor" revision="lineage-21.0" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" />
+  <!--<project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" />-->
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,kailua-vendor" revision="lineage-21.0" />
   <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" revision="lineage-21.0" />
   <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" revision="lineage-21.0" />
