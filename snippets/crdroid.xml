@@ -59,6 +59,7 @@
   <project path="frameworks/opt/telephony" name="crdroidx/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/timezonepicker" name="crdroidx/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
+  <project path="hardware/google/pixel" name="crdroidx/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm" remote="crdroid" />
   <project path="hardware/interfaces" name="crdroidx/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="hardware/libhardware" name="crdroidx/android_hardware_libhardware" groups="pdk" remote="crdroid" />
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidx/android_hardware_qcom_audio" groups="qcom,msmnile" revision="15.0-caf-sm8150" />
