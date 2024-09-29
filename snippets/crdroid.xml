@@ -70,6 +70,7 @@
   <project path="lineage-sdk" name="crdroidx/android_lineage-sdk" remote="crdroid" />
 
   <project path="packages/apps/Contacts" name="crdroidx/android_packages_apps_Contacts" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/crDroidSettings" name="crdroidx/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidx/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/Etar" name="crdroidx/android_packages_apps_Etar" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidx/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
