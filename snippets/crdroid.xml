@@ -92,5 +92,6 @@
 
   <project path="vendor/addons" name="crdroidx/android_vendor_addons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidx/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="crdroidx/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="crdroid" />
 
 </manifest>
