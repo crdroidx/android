@@ -62,6 +62,7 @@
   <project path="packages/apps/LineageParts" name="crdroidx/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidx/android_packages_apps_Matlog" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crdroidx/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/OmniStyle" name="crdroidx/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidx/android_packages_apps_Settings" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/SettingsIntelligence" name="crdroidx/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="crdroidx/android_packages_apps_SetupWizard" remote="crdroid" />
