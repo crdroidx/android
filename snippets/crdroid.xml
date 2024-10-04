@@ -40,6 +40,7 @@
   <project path="device/lineage/sepolicy" name="crdroidx/android_device_crdroid_sepolicy" remote="crdroid" />
 
   <project path="external/FadingEdgeLayout" name="crdroidx/android_external_FadingEdgeLayout" remote="crdroid" />
+  <project path="external/jemalloc_new" name="crdroidx/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidx/android_frameworks_av" groups="pdk" remote="crdroid" />
   <project path="frameworks/base" name="crdroidx/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
