@@ -45,7 +45,7 @@
   </project>-->
   <!--<project path="art" name="platform/art" groups="pdk" remote="aosp" />-->
   <!--<project path="bionic" name="LineageOS/android_bionic" groups="pdk" />-->
-  <!--<project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />-->
+  <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
   <!--<project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />-->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -983,7 +983,7 @@
   <project path="hardware/google/graphics/zuma" name="platform/hardware/google/graphics/zuma" groups="ripcurrentr,pdk-gs-arm" remote="aosp" />
   <project path="hardware/google/graphics/zumapro" name="platform/hardware/google/graphics/zumapro" groups="ripcurrentpro" remote="aosp" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" remote="aosp" />
-  <!--<project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm" />-->
+  <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" />
   <project path="hardware/google/trusty" name="platform/hardware/google/trusty" groups="pdk" remote="aosp" />
   <!--<project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk,sysui-studio" />-->
@@ -1028,7 +1028,7 @@
   <project path="hardware/st/secure_element2" name="platform/hardware/st/secure_element2" groups="pdk" remote="aosp" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" remote="aosp" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" remote="aosp" />
-  <!--<project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" />-->
+  <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/5.4/arm64" name="kernel/prebuilts/5.4/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/5.4/x86_64" name="kernel/prebuilts/5.4/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
@@ -1167,7 +1167,7 @@
   <project path="packages/modules/ThreadNetwork" name="platform/packages/modules/ThreadNetwork" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/UprobeStats" name="platform/packages/modules/UprobeStats" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <!--<project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" remote="aosp" />-->
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" remote="aosp" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <!--<project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" />-->
   <project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" />
@@ -1266,14 +1266,14 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
   <project path="system/authgraph" name="platform/system/authgraph" groups="pdk" remote="aosp" />
-  <!--<project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" />-->
+  <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <!--<project path="system/core" name="LineageOS/android_system_core" groups="pdk" />-->
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" remote="aosp" />
-  <!--<project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />-->
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk,sysui-studio" remote="aosp" />
@@ -1303,11 +1303,11 @@
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" remote="aosp" />
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" remote="aosp" />
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" remote="aosp" />
-  <!--<project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />-->
+  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/secretkeeper" name="platform/system/secretkeeper" groups="pdk" remote="aosp" />
-  <!--<project path="system/security" name="LineageOS/android_system_security" groups="pdk" />-->
+  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <!--<project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />-->
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" remote="aosp" />
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" remote="aosp" />
@@ -1320,7 +1320,7 @@
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp" />
   <!--<project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />-->
-  <!--<project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />-->
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" remote="aosp" />
   <project path="test/cts-root" name="platform/test/cts-root" remote="aosp" />
   <project path="test/dittosuite" name="platform/test/dittosuite" groups="pdk" remote="aosp" />
