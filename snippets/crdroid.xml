@@ -34,12 +34,18 @@
 
   <project path="device/lineage/sepolicy" name="crdroidx/android_device_crdroid_sepolicy" remote="crdroid" />
 
+  <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="15.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="15.0-caf-sm8350" />
+
+  <project path="lineage-sdk" name="crdroidx/android_lineage-sdk" remote="crdroid" />
+
   <project path="frameworks/av" name="crdroidx/android_frameworks_av" groups="pdk" remote="crdroid" />
   <project path="frameworks/base" name="crdroidx/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
   <project path="frameworks/libs/systemui" name="crdroidx/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
   <project path="frameworks/native" name="crdroidx/android_frameworks_native" groups="pdk" remote="crdroid" />
 
   <project path="packages/apps/Launcher3" name="crdroidx/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
+  <project path="packages/apps/LineageParts" name="crdroidx/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidx/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="crdroid" />
 
