@@ -45,6 +45,7 @@
 
   <project path="lineage-sdk" name="crdroidx/android_lineage-sdk" remote="crdroid" />
 
+  <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidx/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidx/android_frameworks_av" groups="pdk" remote="crdroid" />
@@ -58,11 +59,14 @@
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidx/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidx/android_packages_apps_LineageParts" remote="crdroid" />
+  <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
+  <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidx/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidx/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />
   <project path="packages/modules/Bluetooth" name="crdroidx/android_packages_modules_Bluetooth" groups="pdk" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidx/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidx/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidx/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
