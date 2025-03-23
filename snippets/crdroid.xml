@@ -84,6 +84,8 @@
   <project path="system/core" name="crdroidx/android_system_core" groups="pdk" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidx/android_system_sepolicy" groups="pdk" remote="crdroid" />
 
+  <project path="toolchain/pgo-profiles" name="crdroidandroid/android_toolchain_pgo-profiles" groups="pdk" remote="crdroid" />
+
   <project path="vendor/addons" name="crdroidx/android_vendor_addons" remote="crdroid" />
   <project path="vendor/certification" name="crdroidandroid/android_vendor_certification" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidx/android_vendor_crdroid" remote="crdroid" />
