@@ -16,4 +16,15 @@
   <!-- crDroid additions -->
   <project path="android" name="crdroidx/android" remote="crdroid" />
 
+  <project path="frameworks/av" name="crdroidx/android_frameworks_av" groups="pdk,sysui-studio" remote="crdroid" />
+  <project path="frameworks/base" name="crdroidx/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+
+  <project path="packages/apps/Settings" name="crdroidx/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="crdroid" />
+  <project path="packages/apps/ThemePicker" name="crdroidx/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="packages/apps/WallpaperPicker2" name="crdroidx/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="crdroid" />
+
+  <project path="packages/modules/Connectivity" name="crdroidx/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+
+  <project path="vendor/lineage" name="crdroidx/android_vendor_crdroid" remote="crdroid" />
+
 </manifest>
