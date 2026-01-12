@@ -36,8 +36,21 @@
 
   <project path="bootable/recovery" name="crdroidx/android_bootable_recovery" groups="pdk" remote="crdroid" />
 
+  <project path="device/lineage/sepolicy" name="crdroidx/android_device_crdroid_sepolicy" remote="crdroid" />
+
+  <project path="external/arm-optimized-routines" name="crdroidx/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
+  <project path="external/bouncycastle" name="crdroidx/android_external_bouncycastle" groups="pdk" remote="crdroid" />
+  <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" remote="crdroid" />
+  <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
+
+  <project path="hardware/interfaces" name="name/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
+
   <project path="frameworks/av" name="crdroidx/android_frameworks_av" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="frameworks/base" name="crdroidx/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="frameworks/libs/systemui" name="crdroidx/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="frameworks/native" name="crdroidx/android_frameworks_native" groups="pdk" remote="crdroid" />
+  <project path="frameworks/opt/net/wifi" name="crdroidx/android_frameworks_opt_net_wif" groups="pdk,sysui-studio" remote="crdroid" />
+  <project path="frameworks/opt/telephony" name="crdroidx/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="crdroid" />
 
   <project path="packages/apps/Settings" name="crdroidx/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidx/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />
