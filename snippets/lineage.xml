@@ -30,7 +30,7 @@
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
+  <!--<project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />-->
   <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" />
   <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
@@ -42,16 +42,16 @@
   <project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+  <!--<project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />-->
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
-  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+  <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" />
   <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" />
   <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" />
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
+  <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />-->
+  <!--<project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
@@ -137,13 +137,13 @@
   <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845" />
   <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-23.2-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8150" />
+  <!--<project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8150" />-->
   <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-23.2-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-23.2-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8350" />
+  <!--<project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8350" />-->
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
