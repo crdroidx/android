@@ -57,6 +57,8 @@
 
   <project path="kernel/configs" name="crdroidx/android_kernel_configs" groups="vts,pdk" remote="crdroid" />
 
+  <project path="lineage-sdk" name="crdroidx/android_lineage-sdk" remote="crdroid" />
+
   <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid" />
   <project path="packages/apps/ColumbusService" name="crdroidandroid/android_packages_apps_ColumbusService" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidx/android_packages_apps_crDroidSettings" remote="crdroid" />
