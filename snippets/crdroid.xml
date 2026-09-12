@@ -70,6 +70,7 @@
   <project path="packages/services/DeviceAsWebcam" name="crdroidandroid/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
   <project path="packages/services/QuickLook" name="crdroidandroid/android_packages_services_QuickLook" remote="crdroid" />
+  <project path="packages/services/Telecomm" name="crdroidx/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidx/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
   <project path="system/core" name="crdroidx/android_system_core" groups="pdk" remote="crdroid" />
