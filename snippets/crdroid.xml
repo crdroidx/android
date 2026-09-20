@@ -62,6 +62,7 @@
   <project path="packages/apps/Settings" name="crdroidx/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="crdroidx/android_packages_apps_SetupWizard" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidx/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="packages/apps/ThemeStore" name="crdroidandroid/android_packages_apps_ThemeStore" remote="crdroid" />
   <project path="packages/apps/Updater" name="crdroidx/android_packages_apps_Updater" remote="crdroid" />
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidx/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
@@ -84,4 +85,5 @@
 
   <project path="vendor/addons" name="crdroidx/android_vendor_addons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidx/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/themes" name="crdroidandroid/android_vendor_themes" remote="crdroid" />
 </manifest>
