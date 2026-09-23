@@ -35,6 +35,7 @@
 
   <project path="external/bouncycastle" name="crdroidx/android_external_bouncycastle" groups="pdk" remote="crdroid" />
   <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" remote="crdroid" />
+  <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidx/android_frameworks_av" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="frameworks/base" name="crdroidx/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
@@ -79,6 +80,7 @@
 
   <project path="system/core" name="crdroidx/android_system_core" groups="pdk" remote="crdroid" />
   <project path="system/fs/fs_mgr" name="crdroidx/android_system_fs_fs_mgr" groups="pdk" remote="crdroid" />
+  <project path="system/memory/libmeminfo" name="crdroidandroid/android_system_memory_libmeminfo" groups="pdk" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidx/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/update_engine" name="crdroidx/android_system_update_engine" groups="pdk" remote="crdroid" />
   <project path="system/vold" name="crdroidx/android_system_vold" groups="pdk" remote="crdroid" />

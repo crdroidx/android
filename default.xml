@@ -255,7 +255,7 @@
   <project path="external/jazzer-api" name="platform/external/jazzer-api" groups="pdk" remote="aosp" />
   <project path="external/jcommander" name="platform/external/jcommander" groups="pdk" remote="aosp" />
   <project path="external/jctools" name="platform/external/jctools" groups="pdk" remote="aosp" />
-  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" />
+  <!--<project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" />-->
   <project path="external/jetpack-camera-app" name="platform/external/jetpack-camera-app" groups="pdk" remote="aosp" />
   <project path="external/jimfs" name="platform/external/jimfs" groups="pdk" remote="aosp" />
   <project path="external/jipp" name="platform/external/jipp" groups="pdk" remote="aosp" />
@@ -976,7 +976,7 @@
   <project path="system/memory/guardian" name="platform/system/memory/guardian" groups="pdk" remote="aosp" />
   <project path="system/memory/libion" name="LineageOS/android_system_memory_libion" groups="pdk" />
   <project path="system/memory/libdmabufheap" name="LineageOS/android_system_memory_libdmabufheap" groups="pdk" />
-  <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" remote="aosp" />
+  <!--<project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" remote="aosp" />-->
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" remote="aosp" />
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" remote="aosp" />
   <project path="system/memory/libwrapfd" name="platform/system/memory/libwrapfd" groups="pdk" remote="aosp" />
