@@ -45,6 +45,7 @@
   <project path="frameworks/opt/telephony" name="crdroidx/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidx/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
+  <project path="hardware/lineage/compat" name="crdroidandroid/android_hardware_lineage_compat" remote="crdroid" />
 
   <project path="lineage-sdk" name="crdroidx/android_lineage-sdk" remote="crdroid" />
 
