@@ -59,6 +59,7 @@
   <project path="packages/apps/LineageParts" name="crdroidx/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
+  <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/Sandbox" name="crdroidandroid/android_packages_apps_Sandbox" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidx/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="crdroid" />
